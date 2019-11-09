@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b100e6da.chunk.css",
-    "main.js": "/static/js/main.bb166173.chunk.js",
-    "main.js.map": "/static/js/main.bb166173.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bbc28118.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bbc28118.js.map",
-    "static/js/2.3bb83ea8.chunk.js": "/static/js/2.3bb83ea8.chunk.js",
-    "static/js/2.3bb83ea8.chunk.js.map": "/static/js/2.3bb83ea8.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.699150859e5effb22acabaf23c268f40.js": "/precache-manifest.699150859e5effb22acabaf23c268f40.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.25bf045c.svg"
+    "main.css": "/kickstarapp-documentation/static/css/main.b100e6da.chunk.css",
+    "main.js": "/kickstarapp-documentation/static/js/main.be4dfe03.chunk.js",
+    "main.js.map": "/kickstarapp-documentation/static/js/main.be4dfe03.chunk.js.map",
+    "runtime-main.js": "/kickstarapp-documentation/static/js/runtime-main.e302fc9b.js",
+    "runtime-main.js.map": "/kickstarapp-documentation/static/js/runtime-main.e302fc9b.js.map",
+    "static/js/2.3bb83ea8.chunk.js": "/kickstarapp-documentation/static/js/2.3bb83ea8.chunk.js",
+    "static/js/2.3bb83ea8.chunk.js.map": "/kickstarapp-documentation/static/js/2.3bb83ea8.chunk.js.map",
+    "index.html": "/kickstarapp-documentation/index.html",
+    "precache-manifest.2ab1275b0493ff73b34f3e2d99eed938.js": "/kickstarapp-documentation/precache-manifest.2ab1275b0493ff73b34f3e2d99eed938.js",
+    "service-worker.js": "/kickstarapp-documentation/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/kickstarapp-documentation/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/kickstarapp-documentation/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bbc28118.js",
+    "static/js/runtime-main.e302fc9b.js",
     "static/js/2.3bb83ea8.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.bb166173.chunk.js"
+    "static/js/main.be4dfe03.chunk.js"
   ]
 }
