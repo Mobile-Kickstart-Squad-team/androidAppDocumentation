@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kickstarapp-documentation/static/css/main.b100e6da.chunk.css",
-    "main.js": "/kickstarapp-documentation/static/js/main.be4dfe03.chunk.js",
-    "main.js.map": "/kickstarapp-documentation/static/js/main.be4dfe03.chunk.js.map",
-    "runtime-main.js": "/kickstarapp-documentation/static/js/runtime-main.e302fc9b.js",
-    "runtime-main.js.map": "/kickstarapp-documentation/static/js/runtime-main.e302fc9b.js.map",
-    "static/js/2.3bb83ea8.chunk.js": "/kickstarapp-documentation/static/js/2.3bb83ea8.chunk.js",
-    "static/js/2.3bb83ea8.chunk.js.map": "/kickstarapp-documentation/static/js/2.3bb83ea8.chunk.js.map",
-    "index.html": "/kickstarapp-documentation/index.html",
-    "precache-manifest.2ab1275b0493ff73b34f3e2d99eed938.js": "/kickstarapp-documentation/precache-manifest.2ab1275b0493ff73b34f3e2d99eed938.js",
-    "service-worker.js": "/kickstarapp-documentation/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/kickstarapp-documentation/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/kickstarapp-documentation/static/media/logo.25bf045c.svg"
+    "main.css": "/androidAppDocumentation/static/css/main.b100e6da.chunk.css",
+    "main.js": "/androidAppDocumentation/static/js/main.0d6cd07e.chunk.js",
+    "main.js.map": "/androidAppDocumentation/static/js/main.0d6cd07e.chunk.js.map",
+    "runtime-main.js": "/androidAppDocumentation/static/js/runtime-main.629d2e92.js",
+    "runtime-main.js.map": "/androidAppDocumentation/static/js/runtime-main.629d2e92.js.map",
+    "static/js/2.3bb83ea8.chunk.js": "/androidAppDocumentation/static/js/2.3bb83ea8.chunk.js",
+    "static/js/2.3bb83ea8.chunk.js.map": "/androidAppDocumentation/static/js/2.3bb83ea8.chunk.js.map",
+    "index.html": "/androidAppDocumentation/index.html",
+    "precache-manifest.f58cf75c75283b12a31fb2ff32448719.js": "/androidAppDocumentation/precache-manifest.f58cf75c75283b12a31fb2ff32448719.js",
+    "service-worker.js": "/androidAppDocumentation/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/androidAppDocumentation/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/androidAppDocumentation/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e302fc9b.js",
+    "static/js/runtime-main.629d2e92.js",
     "static/js/2.3bb83ea8.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.be4dfe03.chunk.js"
+    "static/js/main.0d6cd07e.chunk.js"
   ]
 }
