@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="">Welcome to Kickstar Android App</a>
+            <a class="navbar-brand" href="/">Welcome to Kickstar Android App</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -12,13 +12,13 @@ const Navbar = () => {
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><Link to="/">Home</Link> <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/"><Link to="/">Home</Link> <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><Link to="/blog">Blog</Link></a>
+                        <a class="nav-link" href="blog"><Link to="/blog">Blog</Link></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><Link to="/document">Document</Link></a>
+                        <a class="nav-link" href="document"><Link to="/document">Document</Link></a>
                     </li>
                     
                     <li class="nav-item">
