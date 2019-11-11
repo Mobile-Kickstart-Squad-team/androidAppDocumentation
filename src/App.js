@@ -8,6 +8,7 @@ import MainPage from './pages'
 import NotFoundPage from './pages/404';
 import DocumentPage from './pages/document'
 import BlogPage from './pages/blog';
+import ReactWebsiteStoryPage from './pages/reactwebsitestory';
 
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
         <Route exact path="/" component={MainPage} />
         <Route exact path="/document" component={DocumentPage} />
         <Route exact path="/blog" component={BlogPage} />
+        <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
         <Route exact path="/404"component={NotFoundPage} />
         <Redirect to="/404"/>
         </Switch>

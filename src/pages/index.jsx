@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Link }from 'react-router-dom';
 import Navbar from './navbar';
 
@@ -16,7 +15,7 @@ const MainPage = () => {
                 <div class="container text-center"> 
                     Welcome to App Squad! 
                     <div class="row ">
-                        <div class="col-md-12">What We Do </div>
+                        
                         <div class="col-md-12">we are group of people who meet at the career karma
                         where we help each other to learn coding and prepare for bootcamp. 
                         In this squad, we will go further as team to do some extra team development.
@@ -42,11 +41,12 @@ const MainPage = () => {
                     <div class="row ">
                         
                         <div class="col-md-4">
-                            <img class="team-member-picture" />
+                            <img class="team-member-picture" src={ require('../images/logo.svg') }  alt="Avatar"  />
                             Ron Tablan </div>
-                        <div class="col-md-4"><img class="team-member-picture" />
+                        <div class="col-md-4">
+                            <img class="team-member-picture" src={ require('../images/logo.svg') } />
                         Kenneth Eng</div>
-                        <div class="col-md-4"><img class="team-member-picture" />
+                        <div class="col-md-4"><img class="team-member-picture" src={ require('../images/logo.svg')} />
                         To be added</div>
                     </div>
                 </div>

@@ -3,10 +3,10 @@ import React from 'react';
 import Navbar from './navbar';
 import { Link } from 'react-router-dom';
 
-const BlogPage = () => {
+const ReactWebsiteStoryPage = () => {
 
     return (
-        
+
         <div>
             <Navbar />
 
@@ -28,15 +28,14 @@ const BlogPage = () => {
                         </div>
                         <div class=" col-cd-8 blog-content">
 
-                            Blog content
+                            react story
                             </div>
                     </div>
                 </div>
 
             </div>
         </div>
-
     )
 }
 
-export default BlogPage;
+export default ReactWebsiteStoryPage;

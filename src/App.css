@@ -41,14 +41,33 @@
 
 }
 
-.team-member-picture{
-  width: 200px;
-  height: 200px;
-}
 
 @media (max-width: 600px) {
   .App-theme-dark {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   padding-top: 110px;
   }
+}
+
+/* Index Page styles*/
+.team-member-picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Blog page styles*/
+
+ul {
+  border-left-width: 0.01cm;
+  border-left-style: ridge;
+}
+
+.left-nav{
+  padding-left: 0.01cm;
+}
+
+.blog-content{
+  margin: 0.1cm;
+  padding-left: 0.1cm;
 }
