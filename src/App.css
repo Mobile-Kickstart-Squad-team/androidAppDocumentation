@@ -20,3 +20,35 @@
 .App-link {
   color: #09d3ac;
 }
+
+.App-theme-dark {
+  position: relative;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  min-height: 100vh;
+  padding-top: 80px;
+
+}
+
+.App-theme-light {
+  position: relative;
+  background-color: lightcyan;
+  color: #282c34;
+  display: flex;
+  min-height: 100vh;
+  padding-top: 80px;
+
+}
+
+.team-member-picture{
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  .App-theme-dark {
+  background-color: lightblue;
+  padding-top: 110px;
+  }
+}

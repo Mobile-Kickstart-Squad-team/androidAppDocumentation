@@ -15,8 +15,12 @@ const Navbar = () => {
                         <a class="nav-link" ><Link to="/">Home</Link> <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" ><Link to="/blog">Blog</Link></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" ><Link to="/document">Document</Link></a>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Links</a>
                     </li>
