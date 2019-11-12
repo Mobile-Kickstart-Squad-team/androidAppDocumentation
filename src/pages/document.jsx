@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Navbar from './navbar';
-
+import Footer from './footer';
 
 const DocumentPage= () => {
 
@@ -11,28 +11,31 @@ const DocumentPage= () => {
             <Navbar />
 
             <div class="App-theme-dark">
-                <div class="container">
-                    
-                    <div class="row ">
-                        <div class="col-cd-4">
+                <div class="col-md-3 left-nav">
                             <h3>Document Page</h3>
 
                             <ul>
 
                                 <li>Hangman game project
                                     author: Ron Tablan
+                                    
                                 </li>
                                 <li>Project 2</li>
                                 <li>docoment 3</li>
                             </ul>
                         </div>
-                        <div class="col-cd-8">
+                <div class="container">
+                    
+                    <div class="row ">
+                        
+                        <div class="col-md-10">
                             
                        </div>
                     </div>
                 </div>
 
             </div>
+            <Footer />
         </div>
 
     )

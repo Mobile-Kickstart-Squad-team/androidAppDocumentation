@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from './footer';
 
 const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="/">Welcome to Kickstar Android App</a>
+            <a class="navbar-brand" href="/">App Squad </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -12,27 +13,19 @@ const Navbar = () => {
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/"><Link to="/">Home</Link> <span class="sr-only">(current)</span></a>
+                        <Link class="App-link" to="/">Home</Link> <span class="sr-only">(current)</span>
+                    </li>
+                    <li class="nav-item ">
+                        <Link class="App-link" to="/blog">Blog</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog"><Link to="/blog">Blog</Link></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="document"><Link to="/document">Document</Link></a>
+                        <Link class="App-link" to="/document">Document</Link>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Links</a>
+                        <a class="nav-link disabled" href="#">Admin</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Links</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">   <Link to="/link1">Link1</Link></a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                    
                 </ul>
 
             </div>

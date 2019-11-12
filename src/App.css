@@ -18,7 +18,11 @@
 }
 
 .App-link {
+  padding: 0.5em 1em 0.1em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
   color: #09d3ac;
+  font-size: 24px;
 }
 
 .App-theme-dark {
@@ -26,7 +30,7 @@
   background-color: #282c34;
   color: white;
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
   padding-top: 80px;
 
 }
@@ -42,18 +46,34 @@
 }
 
 
-@media (max-width: 600px) {
-  .App-theme-dark {
-  /* background-color: lightblue; */
-  padding-top: 110px;
-  }
-}
-
 /* Index Page styles*/
 .team-member-picture{
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  object-fit: scale-down;
+  border-width: 0.01cm;
+  border-style: ridge;
+
+}
+
+.bio {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+/* navbar styles*/
+nav li .navbarStyle {
+  padding: 0.5em 1em 0.1em 1em;
+}
+
+/* Footer styles */
+.footer {
+  border-top-width: 1vh;
+  border-top-style: solid;
+  position: relative;
+  background-color: #282c34;
+  padding: 2vh 2vh 2vh 2vh;
 }
 
 /* Blog page styles*/
@@ -64,10 +84,24 @@ ul {
 }
 
 .left-nav{
-  padding-left: 0.01cm;
+  border-right-width: 1vh;
+  border-right-style: solid;
+  border-color: hsl(240, 9%, 17%);
+ 
 }
 
 .blog-content{
   margin: 0.1cm;
   padding-left: 0.1cm;
+}
+
+
+
+/* mobile style */
+
+@media (max-width: 600px) {
+  .App-theme-dark {
+  /* background-color: lightblue; */
+  padding-top: 110px;
+  }
 }

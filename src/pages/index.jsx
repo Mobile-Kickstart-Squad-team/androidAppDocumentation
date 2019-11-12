@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './navbar';
+import Footer from './footer';
 
 
 const MainPage = () => {
@@ -41,16 +42,23 @@ const MainPage = () => {
                         
                         <div class="col-md-4">
                             <img class="team-member-picture" src={ require('../images/logo.svg') }  alt="Avatar"  />
-                            Ron Tablan </div>
+                            <div>Ron Tablan</div> </div>
                         <div class="col-md-4">
-                            <img class="team-member-picture" src={ require('../images/logo.svg') } />
-                        Kenneth Eng</div>
+                            <img class="team-member-picture" src={ require('../images/kennetheng-image.png') } />
+                            <div>Kenneth Eng</div>
+                            <div class="bio"> After doing self-taught for years,
+                                I finally realieze application development requries teamwork to achieve production level. Besides, I never really have idea what exactly I should do 
+                                with all programming skills I learned. I am really appeciate to meet people in tech again here at Career Karma.
+                                I am also interested in non-profit open source jobs. </div>    
+                        </div>
                         <div class="col-md-4"><img class="team-member-picture" src={ require('../images/logo.svg')} />
-                        To be added</div>
+                        <div>To be added</div></div>
                     </div>
                 </div>
-
+                
             </div>
+
+            <Footer />
         </div>
     )
 }

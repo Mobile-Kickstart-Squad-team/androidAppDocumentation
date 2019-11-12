@@ -9,6 +9,9 @@ import NotFoundPage from './pages/404';
 import DocumentPage from './pages/document'
 import BlogPage from './pages/blog';
 import ReactWebsiteStoryPage from './pages/reactwebsitestory';
+import PrivacyPage from './pages/privacy';
+import PostingIosAppStoryPage from './pages/posting-ios-app-story';
+
 
 
 class App extends React.Component {
@@ -20,6 +23,8 @@ class App extends React.Component {
         <Route exact path="/document" component={DocumentPage} />
         <Route exact path="/blog" component={BlogPage} />
         <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
+        <Route exact path="/blog/posting-ios-app-story" component={PostingIosAppStoryPage} />
+        <Route exact path="/privacy" component={PrivacyPage} />
         <Route exact path="/404"component={NotFoundPage} />
         <Redirect to="/404"/>
         </Switch>
