@@ -11,8 +11,9 @@ import BlogPage from './pages/blog';
 import ReactWebsiteStoryPage from './pages/reactwebsitestory';
 import PrivacyPage from './pages/privacy';
 import PostingIosAppStoryPage from './pages/posting-ios-app-story';
+import ThesquadPage from './pages/thesquad';
 
-
+        
 
 class App extends React.Component {
   render(){
@@ -25,6 +26,7 @@ class App extends React.Component {
         <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
         <Route exact path="/blog/posting-ios-app-story" component={PostingIosAppStoryPage} />
         <Route exact path="/privacy" component={PrivacyPage} />
+        <Route exact path="/thesquad" component={ThesquadPage} />
         <Route exact path="/404"component={NotFoundPage} />
         <Redirect to="/404"/>
         </Switch>

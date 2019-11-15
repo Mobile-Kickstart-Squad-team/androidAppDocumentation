@@ -36,24 +36,11 @@ const MainPage = () => {
                     
 
                     <div class="row ">
-                        <div class="col-md-12">Team</div>
+                        <div class="col-md-12">
+                            Join our Face page
+                            <a href="https://www.facebook.com/groups/625936851276973/"><img src={ require('../images/icons8-facebook-24.png') }  alt="facebook" /></a></div>
                     </div>
-                    <div class="row ">
-                        
-                        <div class="col-md-4">
-                            <img class="team-member-picture" src={ require('../images/logo.svg') }  alt="Avatar"  />
-                            <div>Ron Tablan</div> </div>
-                        <div class="col-md-4">
-                            <img class="team-member-picture" src={ require('../images/kennetheng-image.png') } />
-                            <div>Kenneth Eng</div>
-                            <div class="bio"> After doing self-taught for years,
-                                I finally realieze application development requries teamwork to achieve production level. Besides, I never really have idea what exactly I should do 
-                                with all programming skills I learned. I am really appeciate to meet people in tech again here at Career Karma.
-                                I am also interested in non-profit open source jobs. </div>    
-                        </div>
-                        <div class="col-md-4"><img class="team-member-picture" src={ require('../images/logo.svg')} />
-                        <div>To be added</div></div>
-                    </div>
+                    
                 </div>
                 
             </div>
