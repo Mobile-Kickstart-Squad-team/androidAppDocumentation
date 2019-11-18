@@ -28,13 +28,19 @@ const ApacheSparkSqlPage = () => {
                                 <p>dataframes can be created by using existing RDDs, Hive Tables, text files, and 
                                 external database.</p>
                                 <canvas>
-                                {/* <code><canvas>{"bookid:101","bookName:Practical Spark", "Authro:wewqkol K"}</canvas></code> */}
-
+                                
                                         
                                 </canvas>
                                 </div>
-                                
-                        </div> 
+                                <pre>
+                                    <code> 
+                                         "bookid:101""bookName:Practical Spark""Authro: wewqkol K"<br />
+                                    </code> 
+                                    
+                                </pre>
+
+                        </div>
+                        
                     </div>
                 </div>
 

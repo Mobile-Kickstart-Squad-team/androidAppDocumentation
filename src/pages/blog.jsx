@@ -9,10 +9,12 @@ const BlogPage = () => {
 
     return (
         
-        <div>
+        <div >
             <Navbar />
 
             <div class="App-theme-dark">
+            
+
             <div class="col-md-3 left-nav">
                             <h3>Blog Post</h3>
 

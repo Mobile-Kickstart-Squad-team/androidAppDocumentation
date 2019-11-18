@@ -74,6 +74,10 @@ nav li .navbarStyle {
   position: relative;
   background-color: #282c34;
   padding: 2vh 2vh 2vh 2vh;
+  padding-left: 50px;
+}
+a .social{
+  
 }
 
 /* Blog page styles*/
@@ -83,12 +87,29 @@ ul {
   border-left-style: ridge;
 }
 
-.left-nav{
+.sidebar{
   border-right-width: 1vh;
   border-right-style: solid;
   border-color: hsl(240, 9%, 17%);
  
 }
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidebarButtom{
+  display:none;
+  cursor:pointer;
+}
+
+/*blog*/
+
 .blog-title{
   font-family: 'Abril Fatface', cursive;
   text-align: center;
@@ -97,13 +118,16 @@ ul {
 .blog-content{
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0.1cm;
-  padding-left: 0.1cm;
+  padding-left: 0.4cm;
 }
 
 .blog-subcontent{
   font-style: italic;
 }
 
+code {
+  color: white;
+}
 
 
 /* mobile style */
@@ -113,4 +137,52 @@ ul {
   /* background-color: lightblue; */
   padding-top: 110px;
   }
+  .blog-content{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0.1cm;
+    padding-left: 1cm;
+  }
+  .sidebar{
+    
+    display: inline-flex;
+  
+    height: 100%;
+    width: 8%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(255, 184, 184, 0.2);
+    overflow-x: hidden;
+    transition: 0.5s;
+
+  }
+  .sidebar:hover{
+    height: 100%;
+    width: 50%;
+    padding-top: 1.5cm;
+    background-color: #282c34;
+  }
+
+  .sidebarButtom{
+    
+    display: grid;
+    /* cursor:pointer; */
+    width: 0.02cm;
+    -moz-background-inline-policy: continuous;
+  }
+ 
+ 
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
 }

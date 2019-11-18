@@ -18,7 +18,7 @@ const PostingIosAppStoryPage = () => {
                 
                     <div class="row blog-title ">
                         <div class=" col-md-10 blog-content">
-                        <h3>The journey of posting an IOS app for review</h3>
+                        <div class="blog-title"><h3>The journey of posting an IOS app for review</h3></div>
                         <h6>author: Kenneth Eng</h6>
                             <p>Nov 17, 2019</p>
                             </div>
