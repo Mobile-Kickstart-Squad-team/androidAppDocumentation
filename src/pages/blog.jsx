@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
+import ApacheSparkSqlPage from './posts/apache-spark-sql.jsx'
 
 const BlogPage = () => {
 
@@ -23,7 +24,7 @@ const BlogPage = () => {
                                     
                                     
                                 </li>
-                                <li><a href="#">Blog 2</a></li>
+                                <li><a href="/blog/apache-spark-sql">Practice Apache Spark sql and dataframes</a></li>
                                 <li><a href="#">Blog 3</a></li>
                             </ul>
                         </div>

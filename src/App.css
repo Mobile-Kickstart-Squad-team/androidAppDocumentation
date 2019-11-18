@@ -89,10 +89,19 @@ ul {
   border-color: hsl(240, 9%, 17%);
  
 }
+.blog-title{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
 
 .blog-content{
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0.1cm;
   padding-left: 0.1cm;
+}
+
+.blog-subcontent{
+  font-style: italic;
 }
 
 
