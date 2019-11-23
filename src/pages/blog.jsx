@@ -31,7 +31,7 @@ const BlogPage = () => {
                             
                             
 
-                        <a href="/blog/apache-spark">Practice Apache Spark sql and dataframes</a>
+                            <Link to="/blog/apache-spark">Practice Apache Spark sql and dataframes</Link>
 
                                                 
                             </div>
