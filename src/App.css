@@ -129,7 +129,16 @@ code {
   color: white;
 }
 
-
+/*Document */
+.document-title{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+.document-content{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0.1cm;
+  padding-left: 0.4cm;
+}
 /* mobile style */
 
 @media (max-width: 600px) {

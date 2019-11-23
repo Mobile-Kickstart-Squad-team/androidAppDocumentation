@@ -6,7 +6,7 @@ const NotFoundPage = () => {
 
     return (
         
-        <div>
+        <div class="App-theme-dark">
             <h3>404 Not Found</h3>
         </div>
 

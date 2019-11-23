@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './footer';
 
-const BlogSideBar = () => {
+
+const DocumentSideBar = () => {
     return (
 
         <div class="col-md-3 sidebar">
@@ -13,11 +13,12 @@ const BlogSideBar = () => {
             <div class="navbar-collapse" id="sidebarNav" >
                 <ul class="navbar mr-auto">
 
-                    <li><a href="#"><Link to="/blog/posting-ios-app-story">
-                        The journey of posting an IOS app for review</Link></a>
+                    <li>
+                    <Link to="/documents/hangman"><h5>Hangman game project</h5>
+                    author: Ron Tablan</Link>
                     </li>
-                    <li><a href="/blog/apache-spark-sql">Practice Apache Spark sql and dataframes</a></li>
                     <li><a href="#" class="nav-link disabled">&#9776; open</a></li>
+                   
                 </ul>
                 
             </div>
@@ -30,4 +31,4 @@ const BlogSideBar = () => {
     );
 }
 
-export default BlogSideBar;
+export default DocumentSideBar;
