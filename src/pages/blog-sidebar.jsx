@@ -16,7 +16,7 @@ const BlogSideBar = () => {
                     <li><a href="#"><Link to="/blog/posting-ios-app-story">
                         The journey of posting an IOS app for review</Link></a>
                     </li>
-                    <li><a href="/blog/apache-spark-sql">Practice Apache Spark sql and dataframes</a></li>
+                    <li><a href="/blog/apache-spark">Practice Apache Spark sql and dataframes</a></li>
                     <li><a href="#" class="nav-link disabled">&#9776; open</a></li>
                 </ul>
                 

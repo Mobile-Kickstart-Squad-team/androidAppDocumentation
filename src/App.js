@@ -12,7 +12,7 @@ import ReactWebsiteStoryPage from './pages/reactwebsitestory';
 import PrivacyPage from './pages/privacy';
 import PostingIosAppStoryPage from './pages/posting-ios-app-story';
 import ThesquadPage from './pages/thesquad';
-import ApacheSparkSqlPage from './pages/posts/apache-spark-sql';
+import ApacheSparkSqlPage from './pages/posts/apache-spark';
 import HangmanPage from './pages/documents/hangman';
 
         
@@ -29,7 +29,7 @@ class App extends React.Component {
         <Route exact path="/blog" component={BlogPage} />
         <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
         <Route exact path="/blog/posting-ios-app-story" component={PostingIosAppStoryPage} />
-        <Route exact path="/blog/apache-spark-sql" component={ApacheSparkSqlPage} />
+        <Route exact path="/blog/apache-spark" component={ApacheSparkSqlPage} />
 
         <Route exact path="/privacy" component={PrivacyPage} />
         <Route exact path="/thesquad" component={ThesquadPage} />
