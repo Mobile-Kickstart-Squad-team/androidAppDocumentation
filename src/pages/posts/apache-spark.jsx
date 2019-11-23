@@ -32,12 +32,7 @@ const ApacheSparkSqlPage = () => {
                                         
                                 </canvas>
                                 </div>
-                                <pre>
-                                    <code> 
-                                         "bookid:101""bookName:Practical Spark""Authro: wewqkol K"<br />
-                                    </code> 
-                                    
-                                </pre>
+                               
 
                         </div>
                         
