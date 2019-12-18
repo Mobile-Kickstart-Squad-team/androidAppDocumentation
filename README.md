@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Check page:  https://ying.d395vo5m0w23eh.amplifyapp.com
+Check page: https://master.d1nilvoguaa0zt.amplifyapp.com/
 
 ## Available Scripts
 
