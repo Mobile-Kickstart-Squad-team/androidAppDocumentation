@@ -25,7 +25,7 @@ const Navbar = () => {
                         <Link class="App-link" to="/thesquad">The Squad</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Admin</a>
+                        <a class="nav-link disabled" href="#"></a>
                     </li>
                     
                 </ul>

@@ -14,6 +14,7 @@ import PostingIosAppStoryPage from './pages/posting-ios-app-story';
 import ThesquadPage from './pages/thesquad';
 import ApacheSparkSqlPage from './pages/posts/apache-spark';
 import HangmanPage from './pages/documents/hangman';
+import AndroidFirestoreTutorial from './pages/posts/android-firestore-tutorial';
 
         
 
@@ -29,7 +30,7 @@ class App extends React.Component {
         <Route exact path="/blog" component={BlogPage} />
         <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
         <Route exact path="/blog/posting-ios-app-story" component={PostingIosAppStoryPage} />
-        <Route exact path="/blog/apache-spark" component={ApacheSparkSqlPage} />
+        <Route exact path="/blog/android-firestore-tutorial" component={AndroidFirestoreTutorial} />
 
         <Route exact path="/privacy" component={PrivacyPage} />
         <Route exact path="/thesquad" component={ThesquadPage} />

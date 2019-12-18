@@ -24,14 +24,15 @@ const BlogPage = () => {
                         <h3>Blog Post</h3>
 
                                                 
-
+                        
                         <Link to="/blog/posting-ios-app-story">
                             The journey of posting an IOS app for review
                             <span> -Nov 12, 2019</span></Link><br />
                             
                             
 
-                            <Link to="/blog/apache-spark">Practice Apache Spark sql and dataframes</Link>
+                            <Link to="/blog/android-firestore-tutorial">How to integrate the firestore database into 
+                    an android app.</Link>
 
                                                 
                             </div>
