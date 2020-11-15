@@ -23,7 +23,11 @@ const BlogPage = () => {
                         <div class=" col-md-10 blog-content">
                         <h3>Blog Post</h3>
 
-                                                
+                        <Link to="/blog/what-news-android11.js">
+                            What's new about Android 11.
+                            <span> -Nov 11, 2020</span></Link><br />
+                            
+                                               
                         
                         <Link to="/blog/posting-ios-app-story">
                             The journey of posting an IOS app for review
