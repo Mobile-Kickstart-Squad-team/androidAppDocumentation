@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './footer';
 
+
 const BlogSideBar = () => {
     return (
 
@@ -12,9 +13,14 @@ const BlogSideBar = () => {
 
             <div class="navbar-collapse" id="sidebarNav" >
                 <ul class="navbar mr-auto">
-                <li><a href="#"><Link to="/blog/what-news-android11.js">
+                <li><a href="#"><Link to="/blog/parse-server-integration">
+                            Parse Server Integration
+                            <span> -Nov 23, 2020</span></Link>
+                            </a>
+                    </li>
+                <li><a href="#"><Link to="/blog/what-news-android11">
                             What's new about Android 11.
-                            <span> -Nov 11, 2020</span></Link><br />
+                            <span> -Nov 11, 2020</span></Link>
                             </a>
                     </li>
 

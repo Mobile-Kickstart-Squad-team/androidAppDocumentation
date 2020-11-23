@@ -195,3 +195,28 @@ code {
   }
 
 }
+
+
+/* markdown custom css */
+h1{
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+h3{
+
+
+}
+h6{
+  text-align: center;
+}
+
+p {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0.1cm;
+  padding-left: 0.4cm;
+}
+
+pre code{
+  color: rgb(248, 250, 159);
+}

@@ -3,7 +3,7 @@ import Navbar from '../navbar';
 import Footer from '../footer';
 import { Link } from 'react-router-dom';
 import BlogSideBar from '../blog-sidebar';
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown';
 
 const markdown = `
 # What's new , *Android11*!  
@@ -61,9 +61,9 @@ const Android11news = () => {
         
         </div>
 
-</div>
-<Footer />
-</div>
+        </div>
+    <Footer />
+    </div>
     )
 }
 

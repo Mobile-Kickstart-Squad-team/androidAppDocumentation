@@ -16,7 +16,7 @@ import ApacheSparkSqlPage from './pages/posts/apache-spark';
 import HangmanPage from './pages/documents/hangman';
 import AndroidFirestoreTutorial from './pages/posts/android-firestore-tutorial';
 import Android11news from './pages/posts/whats-new-android11'
-       
+import ParseServerAndroid from './pages/posts/parse-server-android';
 
 class App extends React.Component {
   render(){
@@ -31,7 +31,8 @@ class App extends React.Component {
         <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
         <Route exact path="/blog/posting-ios-app-story" component={PostingIosAppStoryPage} />
         <Route exact path="/blog/android-firestore-tutorial" component={AndroidFirestoreTutorial} />
-        <Route exact path="/blog/what-news-android11.js" component={Android11news} />
+        <Route exact path="/blog/what-news-android11" component={Android11news} />
+        <Route exact path="/blog/parse-server-integration" component={ParseServerAndroid} />
 
         <Route exact path="/privacy" component={PrivacyPage} />
         <Route exact path="/thesquad" component={ThesquadPage} />
