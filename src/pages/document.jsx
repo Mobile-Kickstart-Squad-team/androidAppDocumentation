@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
 import DocumentSideBar from './document-sidebar';
+import Documentblog from './documents/documentblog';
 import { Link } from 'react-router-dom';
 const DocumentPage= () => {
 
@@ -12,21 +13,16 @@ const DocumentPage= () => {
             <Navbar />
 
             <div class="App-theme-dark">
-                <DocumentSideBar />
-                <div class="container text-center">
+                {/* <DocumentSideBar /> */}
+                <div class="container">
                     
                     <div class="row Document-content">
                         
-                        <div class="col-md-10">
-                        <h3>Hangman game documentations</h3>
-
-                            
-                            <Link to="/documents/hangman"><h2>Hangman game project</h2>
-                            author: Ron Tablan</Link>
-                           
-
-
-                            
+                        <div class="col-md-12">
+                        <Documentblog />
+                            {/* <Link to="/documents/document">
+                            </Link> */}
+      
                        </div>
                     </div>
                 </div>

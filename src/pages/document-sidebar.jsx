@@ -14,11 +14,11 @@ const DocumentSideBar = () => {
                 <ul class="navbar mr-auto">
 
                     <li>
-                    <Link to="/documents/hangman"><h5>Hangman game project</h5>
-                    author: Ron Tablan</Link>
+                    <Link to="/documents/documentblog"><h5>title</h5>
+                    </Link>
                     </li>
-                    <li><a href="#" class="nav-link disabled">&#9776; open</a></li>
-                   
+                    {/* <li><a href="#" class="nav-link disabled">&#9776; open</a></li>
+                    */}
                 </ul>
                 
             </div>

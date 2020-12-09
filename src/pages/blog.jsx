@@ -22,6 +22,13 @@ const BlogPage = () => {
                         
                         <div class=" col-md-10 blog-content">
                         <h3>Blog Post</h3>
+                        <Link to="/blog/android-setting-implementation">
+                        dndroid-setting-implementation
+                            <span> -Nov 23, 2020</span></Link><br />
+
+                        <Link to="/blog/parse-server-integration">
+                        parse-server-integration
+                            <span> -Nov 22, 2020</span></Link><br />
 
                         <Link to="/blog/what-news-android11.js">
                             What's new about Android 11.

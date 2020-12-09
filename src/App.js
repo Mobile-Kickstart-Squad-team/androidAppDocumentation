@@ -13,10 +13,11 @@ import PrivacyPage from './pages/privacy';
 import PostingIosAppStoryPage from './pages/posting-ios-app-story';
 import ThesquadPage from './pages/thesquad';
 import ApacheSparkSqlPage from './pages/posts/apache-spark';
-import HangmanPage from './pages/documents/hangman';
+import documentblog from './pages/documents/documentblog';
 import AndroidFirestoreTutorial from './pages/posts/android-firestore-tutorial';
 import Android11news from './pages/posts/whats-new-android11'
 import ParseServerAndroid from './pages/posts/parse-server-android';
+import AndroidSettingTutorial from './pages/posts/android-setting-implementation'
 
 class App extends React.Component {
   render(){
@@ -25,7 +26,7 @@ class App extends React.Component {
         <Switch>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/document" component={DocumentPage} />
-        <Route exact path="/documents/hangman" component={HangmanPage} />
+        {/* <Route exact path="/documents/documentblog" component={HangmanPage} /> */}
         
         <Route exact path="/blog" component={BlogPage} />
         <Route exact path="/blog/reactwebsitestory" component={ReactWebsiteStoryPage} />
@@ -33,6 +34,7 @@ class App extends React.Component {
         <Route exact path="/blog/android-firestore-tutorial" component={AndroidFirestoreTutorial} />
         <Route exact path="/blog/what-news-android11" component={Android11news} />
         <Route exact path="/blog/parse-server-integration" component={ParseServerAndroid} />
+        <Route exact path="/blog/android-setting-implementation" component={AndroidSettingTutorial} />
 
         <Route exact path="/privacy" component={PrivacyPage} />
         <Route exact path="/thesquad" component={ThesquadPage} />

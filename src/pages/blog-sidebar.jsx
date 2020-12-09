@@ -13,6 +13,11 @@ const BlogSideBar = () => {
 
             <div class="navbar-collapse" id="sidebarNav" >
                 <ul class="navbar mr-auto">
+                <li><a href="#"><Link to="/blog/android-setting-implementation">
+                android-setting-implementation
+                            <span> -Nov 23, 2020</span></Link>
+                            </a>
+                    </li>
                 <li><a href="#"><Link to="/blog/parse-server-integration">
                             Parse Server Integration
                             <span> -Nov 23, 2020</span></Link>
